@@ -1,0 +1,164 @@
+.UI{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 1);
+}
+
+.UI2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 1);
+    padding-top:  10px;  
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom:  10px;
+}
+
+ .dummy{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top:  200px;  
+    padding-bottom:  200px; 
+ }
+
+ #register, #login{
+     margin-top:30px;
+ }
+ 
+ #register{
+     margin-top:30px;
+ }
+
+ #user{
+     color: blue;
+ }
+
+ #msg{
+     float: left 30%;
+ }
+
+ #date{
+     text-align: right;
+     float: right;
+ }
+
+#left{
+    float: left;
+    width: 13%;
+    text-align: center;
+}
+
+#center{  
+    position:relative;  
+    float: left;
+    width:75%;
+    height: 600px;
+}
+
+#right{    
+    float: left;
+    width: 12%;
+    text-align: center;
+}
+
+#txt{
+    text-align: right;
+    margin-top: 530px;
+    display:inline-block;
+}
+
+textarea{
+    position:absolute;
+    top: 0%;
+    left: 1%;
+    margin-top: 520px;
+    resize: none;
+}
+
+#messages{
+    height: 500px;
+    overflow-y:auto;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+#message{
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+#send{
+    text-align: left;
+    margin-top: 510px;
+}
+
+#del{
+    background-image:url('X.png');
+    width: 20px;
+    vertical-align: top;
+}
+
+#center2{
+    position:relative;  
+    width:80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#back{
+    margin-right: auto;
+    margin-left: auto;
+    width:80%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#members{
+    height: 480px;
+    margin-top: 20px;
+    overflow-y:auto;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+#functions, #changebtn{
+    text-align: right;
+    float: right;
+}
+#divmsg{
+    float: left;
+    width: 70%;
+
+}
+#divdate{
+    width: 30%;
+    float: left;
+}
+
+#divdate2{
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+#changebtn{
+    margin-right: 10px;
+}
